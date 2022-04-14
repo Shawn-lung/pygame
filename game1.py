@@ -85,8 +85,8 @@ screen = pygame.display.set_mode((WIDTH,HEIGHT))
 clock = pygame.time.Clock()
 true = True
 show = True
-player_img=pygame.image.load(os.path.join("player.png")).convert()
-rock_img = pygame.image.load(os.path.join("rock.png")).convert()
+player_img=pygame.image.load(os.path.join("pics", "player.png")).convert()
+rock_img = pygame.image.load(os.path.join("pics", "rock.png")).convert()
 pygame.mixer.music.load(os.path.join("background.mp3"))
 r=pygame.sprite.Group()
 p=pygame.sprite.Group()
